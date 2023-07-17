@@ -5,17 +5,20 @@
 :root {
     --primary: #fe2c55;
     --black: #000;
+    --white:#fff;
     --text-color: #333;
 
     //DefaultLayout
     --default-layout-header-height: 60px;
     --default-layout-width: 1150px;
+    --default-layout-horizontal-spacer: 24px;
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 html {
